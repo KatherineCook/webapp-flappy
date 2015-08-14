@@ -1,4 +1,4 @@
-body {
+#body {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,7 +21,7 @@ body {
     padding-bottom: 20px;
 }
 #header p{
-    color: white;
+    color: #FFD002;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
@@ -29,9 +29,9 @@ body {
     text-decoration: none;
 }
 #header h1 {
-    color: white;
+    color: #FFD002;
     font-family: 'Roboto', sans-serif;
-    font-size: 46px;
+    font-size: 60px;
 }
 #flappy {
     position: absolute;
@@ -47,7 +47,7 @@ body {
     background-size: 100%;
 }
 #footer p{
-    color: white;
+    color: #FFD002;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 20px;
@@ -65,3 +65,35 @@ body {
 #logo {
     width: 220px;
 }
+
+#score {
+    color: #FFD002;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#gamelink {
+    color: #FFD002;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 800px;
+}
+
+#greeting {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background: #fff;
+    width: 350px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    display: none;
+}
+
